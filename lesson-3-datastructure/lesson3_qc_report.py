@@ -116,4 +116,15 @@ for sample in samples:
 
 average_signal = total_signal / len(samples)
 
+print(f"QC REPORT SUMMARY")
+print(f"--------------------")
+
+for sample in samples:
+    print(f"{sample['sample_id']} | {sample['type']}| {sample['validation']}")
+
+
+print(f"Average Signal: {average_signal:.2f}")
+print(f"Standard Samples: {std_samples}")
+print(f"Quality Control Samples: {qc_samples}")
+print(f"Unknown Samples: {unk_samples}")
 
