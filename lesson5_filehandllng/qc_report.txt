@@ -1,0 +1,9 @@
+QC Report
+-----------
+Total Samples: 6
+Number of STDs: 2
+Number of QCs: 2
+Number of UNKs: 2
+Valid Signals: 5
+Invalid Signals: 1
+Average Valid Signal: 237.64
